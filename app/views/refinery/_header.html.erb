@@ -1,0 +1,51 @@
+    <!-- TOP BAR -->
+    <div id="topBar">
+      <div class="container">
+        <span class="hidden-xs"><%= t(:welcome) %></span> 
+
+        <!-- LANGUAGE -->
+        <div class="btn-group pull-right">
+          <button class="dropdown-toggle language" type="button" data-toggle="dropdown">
+             <%= image_tag("/assets/flags/#{I18n.locale}.png", width: 16, height: 11, id: "current_lang") %>
+             <%= content_tag( :span, "#{Refinery::I18n.locales[I18n.locale]}", class: "hidden-xs") %> 
+             <span class="caret"></span>
+          </button>
+
+          <ul class="dropdown-menu">
+            <% Refinery::I18n.frontend_locales.each do |frontend_locale| %>
+              <li> 
+                <% link = image_tag("/assets/flags/#{frontend_locale}.png", width: 16, height: 11)  + Refinery::I18n.locales[frontend_locale] %>
+                <%= link_to link, {:locale => frontend_locale} %> 
+              </li>
+            <% end %>
+          </ul>
+        </div>
+        <!-- /LANGUAGE -->
+    </div>
+
+
+
+
+
+
+
+<header id="header">
+      <div class="container">
+
+        <!-- LOGO -->
+        <a href="/" class="logo"><img alt="" src="/assets/logo.png" height="60" /></a>
+        <!-- LOGO -->
+
+       
+
+
+        <!-- TOP MENU -->
+        <div class="navbar-collapse nav-main-collapse collapse pull-left">
+            <%= navigation_menu.to_html %>
+         </div>
+        <!-- /TOP MENU -->
+
+      </div>
+</header>
+
+

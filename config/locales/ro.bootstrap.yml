@@ -1,0 +1,18 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+ro:
+  helpers:
+    actions: "Actiuni"
+    links:
+      back: "Inapoi"
+      cancel: "Anuleaza"
+      confirm: "Esti sigur?"
+      destroy: "sterge"
+      new: "Nou"
+      edit: "Editeaza"
+    titles:
+      edit: "Editeaza %{model}"
+      save: "Salveaza %{model}"
+      new: "Nou %{model}"
+      delete: "Sterge %{model}"

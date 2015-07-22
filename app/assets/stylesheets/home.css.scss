@@ -1,0 +1,33 @@
+
+      /* I wanted to center my loader */
+ #cycle-loader {
+        height:32px;
+        left:50%;
+        margin:-8px 0 0 -8px;
+        position:absolute;
+        top:50%;
+        width:32px;
+        z-index:999;
+      }
+
+      /*I want to avoid jumpiness as the JS loads, so I initially hide my cycle*/
+ #maximage {
+        display:none;/* Only use this if you fade it in again after the images load */
+        position:fixed !important;
+      }
+
+      /*Set my gradient above all images*/
+ #gradient {
+        left:0;
+        height:100%;
+        position:absolute;
+        top:0;
+        width:100%;
+        z-index:999;
+      }
+
+  .caption {
+        z-index: 9999;
+      }
+    
+

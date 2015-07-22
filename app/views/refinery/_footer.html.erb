@@ -1,0 +1,51 @@
+    <footer id="footer">
+      <span id="slideTimer"><!-- fs-slideshow timer line --></span>
+
+      <!-- right menu -->
+      <ul>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li class="sepy">&bull;</li>
+        <li><a href="#" data-toggle="modal" data-target="#socialInlineModal"><%= t('follow.title').upcase %></a></li>
+      </ul>
+      <!-- /right menu -->
+
+      <!-- copyright -->
+      <span class="hidden-xs"><%= t('.copyright', :year => Time.now.year,
+                      :site_name => Refinery::Core.site_name) %></span>
+      <!-- /copyright -->
+    </footer>
+    <!-- /FOOTER -->
+
+
+    <!-- FOLLOW US -->
+    <div class="modal fade bs-example-modal-lg" id="socialInlineModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+          <div class="modal-header"><!-- modal header -->
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel"><i class="fa fa-hand-o-down"></i> <%= t('follow.title') %></h4>
+          </div><!-- /modal header -->
+
+          <!-- modal body -->
+          <div class="modal-body">
+            <p><%= t('follow.body') %></p>
+            <div class="text-center">
+              <a href="https://ro-ro.facebook.com/RockThisHairbyRash" class="socialbtn facebook"><i class="fa fa-facebook"></i>Facebook</a>
+              <a href="https://twitter.com/hairvasile" class="socialbtn twitter"><i class="fa fa-twitter"></i>Twitter</a>
+              <a href="https://plus.google.com/117187123679627059405/posts" class="socialbtn google"><i class="fa fa-google-plus"></i>Google Plus</a>
+              <a href="http://ro.linkedin.com/pub/rockthis-hair/70/a90/705" class="socialbtn linkedin"><i class="fa fa-linkedin"></i>Linkedin</a>
+              <a href="https://www.pinterest.com/aurelianvasile1/rock-this-hair-by-rash/" class="socialbtn pinterest"><i class="fa fa-pinterest"></i>Pinterest</a>
+              <!-- <a href="#" class="socialbtn flickr"><i class="fa fa-flickr"></i>Flickr</a> -->
+              <a href="http://www.youtube.com/user/MyRash12" class="socialbtn youtube"><i class="fa fa-youtube"></i>Youtube</a>
+              <!-- <a href="#" class="socialbtn vimeo"><i class="fa fa-vimeo-square"></i>Vimeo</a> -->
+              <a href="http://instagram.com/rashhair" class="socialbtn skype"><i class="fa fa-instagram"></i>Instagram</a>
+              <!-- <a href="#" class="socialbtn rss"><i class="fa fa-rss"></i>Rss</a> -->
+            </div>
+          </div>
+          <!-- /modal body -->
+
+        </div>
+      </div>
+    </div>
+    <!-- /FOLLOW US -->
