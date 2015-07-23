@@ -101,7 +101,7 @@ a, a:hover, a:active,
 	#topBar .dropdown-menu {
 		box-shadow:none;
 		-moz-box-shadow:none;
-		background-color:#393939 !important;
+		background-color:#817d8d !important;
 		-webkit-border-radius: 0;
 		   -moz-border-radius: 0;
 				border-radius: 0;
@@ -135,7 +135,7 @@ a, a:hover, a:active,
 		border-bottom:rgba(0,0,0,0.2) 1px solid !important;
 	}
 	#topBar .btn-group.open {
-		background-color:#393939;
+		background-color:#817d8d;
 	}
 
 	#topBar .btn-group {
@@ -163,7 +163,7 @@ a, a:hover, a:active,
 	display: block;
 	position:relative;
 	height:62px;
-	background:#333333;
+	background:#817d8d;
 	color:#fff; margin-bottom:10px;
 	border-top:rgba(255,255,255,0.06) 1px solid;
 	border-bottom:rgba(255,255,255,0.3) 1px solid;
@@ -229,11 +229,11 @@ a, a:hover, a:active,
 	#header ul.nav li.active a,
 	#header ul.nav li.active:hover>a {
 		color:#fff;
-		background:#393939 url('/assets/main_arrow.png') no-repeat left center;
+		background:#817d8d url('/assets/main_arrow.png') no-repeat left center;
 	}
 	#header ul.nav li:hover>a {
 		color:#81BA10;
-		background:#393939;
+		background:#817d8d;
 	}
 	#header ul.nav li a i.fa {
 		margin-left:6px;
@@ -271,7 +271,7 @@ a, a:hover, a:active,
 		#header ul.nav ul li a {
 			position:relative;
 			float:none; display:block;
-			background:#393939;
+			background:#817d8d;
 			color:#ccc;
 		}
 		#header ul.nav ul li.active a,
@@ -315,7 +315,7 @@ a, a:hover, a:active,
 			#header ul.nav ul ul li.active,
 			#header ul.nav ul ul li.active a,
 			#header ul.nav ul ul li a {
-				background:#393939 !important;
+				background:#817d8d !important;
 				color:#ccc !important;
 			}
 			#header ul.nav ul ul li.active a,
@@ -352,7 +352,7 @@ a, a:hover, a:active,
 	#topOptions li button	{
 		height:60px; line-height:60px;
 		padding:0 10px;
-		background:#393939;
+		background:#817d8d;
 		margin-left:1px;
 		position:relative;
 	}
@@ -393,7 +393,7 @@ a, a:hover, a:active,
 		color:#ccc;
 		position:absolute;
 		top:60px; width:250px; right:0;
-		background:#393939;
+		background:#817d8d;
 		min-height:30px;
 		cursor:default;
 		padding:0; margin:0;
@@ -482,7 +482,7 @@ a, a:hover, a:active,
 		cursor:default;
 		
 		padding:8px;
-		background-color:#393939;
+		background-color:#817d8d;
 	}
 	#topSearch .form-control,
 	#topSearch .btn,
@@ -1118,7 +1118,7 @@ div.e404 {
 /** Footer
 **************************************************************** **/
 #footer { 
-	background:#333333;
+	background:#9ba0af;
 	color:#fff;
 	font-size:10px;
 	position:fixed;
@@ -1199,7 +1199,7 @@ div.e404 {
 
 	#header ul.nav-pills>li {
 		color:#81BA10;
-		background:#393939;
+		background:#817d8d;
 	}
 
 	#header .navbar-collapse {
@@ -1266,7 +1266,7 @@ div.e404 {
 	}
 
 	#header ul.nav li > a { /* Firefox Fix */
-		background-color:#393939 !important;
+		background-color:#817d8d !important;
 	}
 
 	button.btn-mobile {
