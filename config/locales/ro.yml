@@ -20,7 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 ro:
-  welcome: "ADRESA NOUA: Str. Elena Cuza Nr.10 sect.4 - Cabinet individual de psihologie Nedelcu Maria Cristina: office@crinanedelcu.ro sau +4(0)723.070.844"
+  welcome: "ADRESA NOUA: Str. Elena Cuza Nr.10 sect.4 - Cabinet individual de psihologie Nedelcu Maria Cristina: contact@crinanedelcu.ro sau +4(0)723.070.844"
   follow:
     title: "Urmareste-ne"
     body: "Urmareste-ne, intra in conversatie, fa o programare!"
